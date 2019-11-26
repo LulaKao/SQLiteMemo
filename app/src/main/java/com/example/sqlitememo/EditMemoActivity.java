@@ -65,6 +65,7 @@ public class EditMemoActivity extends AppCompatActivity implements View.OnClickL
         btn_back.setOnClickListener(this);
         btn_ok.setOnClickListener(this);
 
+        // 加入色票
         color_list = new ArrayList<ColorData>();
         color_list.add(new ColorData("PAPAYAWHIP", "#FFEFD5"));
         color_list.add(new ColorData("MOCCASIN", "#FFE4B5"));

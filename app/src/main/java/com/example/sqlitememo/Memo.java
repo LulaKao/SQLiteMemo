@@ -5,14 +5,12 @@ public class Memo {
     private String memo;
     private String date;
     private String bg_color;
-    private int remind;
 
-    public Memo(int id, String date, String memo, int remind, String bg_color) {
+    public Memo(int id, String date, String memo, String bg_color) {
         this.id = id;
-        this.memo = memo;
         this.date = date;
+        this.memo = memo;
         this.bg_color = bg_color;
-        this.remind = remind;
     }
 
     public int getId() {
@@ -45,13 +43,5 @@ public class Memo {
 
     public void setBg_color(String bg_color) {
         this.bg_color = bg_color;
-    }
-
-    public int getRemind() {
-        return remind;
-    }
-
-    public void setRemind(int remind) {
-        this.remind = remind;
     }
 }

@@ -99,8 +99,7 @@ public class MainActivity extends AppCompatActivity {
                         cursor.getInt(cursor.getColumnIndexOrThrow("_id")), // cursor.getInt(0)
                         cursor.getString(cursor.getColumnIndexOrThrow("date")), // cursor.getString(1)
                         cursor.getString(cursor.getColumnIndexOrThrow("memo")), // cursor.getString(2)
-                        cursor.getInt(cursor.getColumnIndexOrThrow("remind")), // cursor.getInt(3)
-                        cursor.getString(cursor.getColumnIndexOrThrow("bgcolor")))); // cursor.getString(4)
+                        cursor.getString(cursor.getColumnIndexOrThrow("bgcolor")))); // cursor.getString(3)
             }while (cursor.moveToNext());
         }
         cursor.moveToFirst();
